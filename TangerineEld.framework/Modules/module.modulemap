@@ -1,0 +1,11 @@
+framework module TangerineEld {
+  umbrella header "TangerineEld.h"
+
+  export *
+  module * { export * }
+}
+
+module TangerineEld.Swift {
+    header "TangerineEld-Swift.h"
+    requires objc
+}
